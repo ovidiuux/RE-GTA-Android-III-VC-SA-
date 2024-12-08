@@ -334,9 +334,5 @@ public class WarMedia extends WarGamepad
 	}
 	
 	public void PlayMovieInWindow(String inFilename, int x, int y, int width, int height, float inVolume, int inOffset, int inLength, int looping, boolean forceSize) {
-		//"**** PlayMovieInWindow "
-		Intent launch = new Intent(getApplicationContext(), com.iro.mamaiavice.MovieActivity.class);
-		launch.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT | Intent.FLAG_ACTIVITY_SINGLE_TOP);
-		startActivity(launch);
 	}
 }
